@@ -9,12 +9,15 @@
 
 
 //#3 Funcion Sumar
- function sumar(... numeros){
-    return numeros.reduce((acumulador, valorActual){
-        return acumulador + valorActual
-    },0)
- }
-const resultado = sumar (2,5,7,1)
+let sumaTotal = (acumulador, valorActual) =>{
+    return acumulador + valorActual;
+};
+
+function sumar (...numeros){
+    return numeros.reduce(sumarTotal,0);
+}
+
+const resultado = sumar (2,4,7,);
 
 // #4 Funcion saludar 
 function saludar(nombre = 'desconocido'){
