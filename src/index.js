@@ -6,15 +6,14 @@ const { response } = require("express")
 function HoraActual(){
     let today = new Data();
     let hora = today.getHoras();
-    let minuto = today.getMinutos();
+    let minutos = today.getMinutes();
 
-    return hora + "i" minuto;
+    return hora + minutos;
 }
 function Actualizar(){
-    let horaElemento = document.querySelector
+    let horaElemento = document.querySelector(".Hora");
+    horaElemento.textContent = HoraActual();
 }
-
-
 //ObtenerUsuarios
 
 function ObtenerUsuarios(){
@@ -24,7 +23,7 @@ function ObtenerUsuarios(){
       console.log("lista de usuarios", data);
     })
     .catch((error ) => {
-    console.log ("Error con la lista" error);
+    console.log ("Error con la lista", error);
     });
 }
 
