@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #Contenedor {
+    color: #ff2286;
+  
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .tiempo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #borde {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f9eef3;
+    box-shadow: 10px 10px 20px;
+    border: 8px solid rgb(247, 142, 191) ;
+  }
+
+  hr {
+    color: #ffffff;
+  }
